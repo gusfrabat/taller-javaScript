@@ -1,0 +1,16 @@
+{
+  "name": "Taller de javaScript ",
+  "version": "1.0.0",
+  "description": "Taller de javaScript, presentado al instructor Julian lasso"
+  "repository" : {
+    "type" : "git",
+    "url" : 
+  },
+  "license" : "MIT",
+  "author" : "Luis Gustavo Gomez Esteban",
+  "dependencies" : {
+    "bootstrap" : "^3.3.7",
+    "jquery" : "^3.2.1",
+  }
+    
+}
