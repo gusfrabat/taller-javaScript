@@ -1,7 +1,5 @@
-var x = prompt('Write a whole number');
-if (x < 0 ){
-  var result = (x * -1 );
-  console.log('Positive number ' + result );
-} else {
-  console.log('You must enter a number less than zero');
-}
+alert (" Program that depending on number of hours calculates the weeks and days "); 
+var hours = prompt ("What is the number of hours you want to calculate .... ");
+var week = 0.00595238 * hours ;
+var day = 0.0416667 * hours ;
+console.log ("In " + hours + " hours there are " + week + " weeks " + day + " days ");
