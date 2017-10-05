@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>P63</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/newcss63.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+
+    <header class="bg-info">
+      <a class="btn btn-danger form-control" href="../index.html">JavaScript Go Back to Menu</a>
+      <h3 class="btn form-control btn-info">Exercise # 63</h3>
+    </header>
+    <br>
+
+
+    <div class=" container-fluid col-lg-offset-4">
+      <!--      menu inicio-->
+      <form id="formhide" class="btn form-horizontal">
+        <h2><b>CURRICULUM VITAE</b></h2>
+        <br>
+        <h3 class="form-control"><b>Select an option to enter your data</b></h3>
+        <button type="button" class="btn btn-primary form-control " id="personal">Personal information</button>
+        <br>
+        <button type="button" class="btn btn-primary form-control   " id="family">Family Reference</button>
+        <br>
+        <button type="button" class="btn btn-primary form-control " id="work">Work reference</button>
+        <br>
+        <button type="button" class="btn btn-primary form-control " id="professional">Professional profile description</button>
+        <br>
+        <button type="button" class="btn btn-info form-control " id="print">Print resume</button>
+        <br>
+        <br>
+      </form>
+      <!--      formulario personal-->
+      <form id="form1" class="form-inline">
+        <h3><b>Personal information</b></h3>
+        <br>
+        <label for="name">What is your name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="name" class="form-control" placeholder="                 Name" /> 
+        <br>
+        <br>
+        <label for="lastname">What is your lastname :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lastname" class="form-control" placeholder="             Lastname" />
+        <br>
+        <br>
+        <label for="phone">What is your phonenumber :&nbsp;</label>
+        <input type="number" id="phone" class="form-control" placeholder="         phone number" />
+        <br>
+        <br>
+        <label for="address">What is your address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="address" class="form-control" placeholder="              address" />
+        <br>
+        <br>
+        <label for="email">What is your email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" class="form-control" placeholder="              email" />
+        <br>
+        <br>
+        <button type="button" id="send1" class="btn btn-primary">Send</button>
+        <button type="button" id="back" class="btn btn-info">go back to the menu</button>
+      </form>
+      <!--      formulario familia -->
+      <form id="form2" class="form-inline">
+        <h3><b>family reference</b></h3>
+        <br>
+        <label for="namef">What is the name of your family :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="namef" class="form-control" placeholder="             Name family" /> 
+        <br>
+        <br>
+        <label for="lastnamef">What is the lastname of your family :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lastnamef" class="form-control" placeholder="        Lastname family" />
+        <br>
+        <br>
+        <label for="phonef">What is the phone number of your family :&nbsp;</label>
+        <input type="number" id="phonef" class="form-control" placeholder="    phone number family" />
+        <br>
+        <br>
+        <label for="addressf">What is the address of your family :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="addressf" class="form-control" placeholder="         address family" />
+        <br>
+        <br>
+        <label for="emailf">What is the email of your family :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="emailf" class="form-control" placeholder="         email family" />
+        <br>
+        <br>
+        <button type="button" id="send2" class="btn btn-primary">Send</button>
+        <button type="button" id="back2" class="btn btn-info">go back to the menu</button>
+      </form>
+      <!--      formulario reff work-->
+      <form id="form3" class="form-inline">
+        <h3><b>work reference</b></h3>
+        <br>
+        <label for="company">What company do I work in :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="company" class="form-control" placeholder="             company" /> 
+        <br>
+        <br>
+        <label for="position">What was your position at work :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="position" class="form-control" placeholder="        position work" />
+        <br>
+        <br>
+        <label for="duration">How long have you been in office :&nbsp;</label>
+        <input type="text" id="duration" class="form-control" placeholder="    duration work" />
+        <br>
+        <br>
+        <label for="Bossname">What is the name of your boss :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="Bossname" class="form-control" placeholder="         boss name" />
+        <br>
+        <br>
+        <label for="Bossnumber">What is his boss number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="Bossnumber" class="form-control" placeholder="         boss phone" />
+        <br>
+        <br>
+        <button type="button" id="send3" class="btn btn-primary">Send</button>
+        <button type="button" id="back3" class="btn btn-info">go back to the menu</button>
+      </form>
+      <!--      Professional profile description-->
+      <form id="form4" class="form-horizontal container-fluid col-lg-6"> 
+        <h3><b>Professional profile description</b></h3>
+        <br>
+        <label for="profile">What is your professional profile :</label>
+        <textarea class="form-control" id="profile" placeholder=""></textarea>
+        <br>
+        <br>
+        <button type="button" id="send4" class="btn btn-primary">Send</button>
+        <button type="button" id="back4" class="btn btn-info">go back to the menu</button>
+      </form>
+      <form id="form5">
+        <div id="div1"></div>
+        <br>
+        <br>
+        <button type="button" id="back5" class="btn btn-info col-lg-offset-4">go back to the menu</button>
+      </form>
+
+    </div>
+
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/newjavascript63.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>

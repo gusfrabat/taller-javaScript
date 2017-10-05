@@ -1,16 +1,26 @@
 {
-  "name": "Taller de javaScript ",
+  "name": "Taller de javascrip",
   "version": "1.0.0",
-  "description": "Taller de javaScript, presentado al instructor Julian lasso"
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/gusfrabat/Taller-de-JavaScript.git"
+  "description": "Taller de javaScript, presentado al instructor julian lasso",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "ng-file-upload": "^12.2.13",
+    "ngstorage": "^0.3.11",
+    "oclazyload": "^1.1.0"
   },
-  "license" : "MIT",
-  "author" : "Luis Gustavo Gomez Esteban",
-  "dependencies" : {
-    "bootstrap" : "^3.3.7",
-    "jquery" : "^3.2.1",
-  }
-    
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luis Gustavo Gomez Esteban ",
+  "license": "MIT"
 }

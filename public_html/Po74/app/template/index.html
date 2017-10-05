@@ -1,0 +1,14 @@
+<div ng-controller="indexController" class="container-fluid col-md-4 col-md-offset-4 form-inline">
+  <h3>writes a message to print in real-time on-screen and in console.</h3>
+  <label>Message:
+    <input type="text" ng-model="message" class="form-control" placeholder="whitw a text to print in real-time"/></label>
+  <div ng-bind="$log.log(message)" ></div>
+  <div ng-bind="$log.warn(message)"></div>
+  <div ng-bind="$log.info(message)"></div>
+  <div ng-bind="$log.error(message)"></div>
+  <div ng-bind="$log.debug(message)"></div>
+  <div>
+    {{message}}
+  </div>
+</div>
+

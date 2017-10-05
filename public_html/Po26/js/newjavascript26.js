@@ -46,6 +46,6 @@ switch (result) {
     console.log('bye');
     break;
   default:
-
+    alert("please enter a noumber 1 to 4");
     break;
 }
